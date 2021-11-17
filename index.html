@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erika's Art</title>
+    <meta name="description" content="Erika Estrada's art portfolio." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="css/style2.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- *************** HEADER *************** -->
+    <div class="parallax"></div>
+    <header>
+      <nav aria-label="Main menu" class="horiz-menu">
+        <button class="menu-btn">&#9776;</button>
+        <!-- <div class="menu-flex"> -->
+          <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        <!-- </div> -->
+      </nav>
+      <h1>Erika Estrada</h1>
+      <h2>Art Portfolio</h2>
+    </header>
+
+    <!-- *************** GALLERY *************** -->
+    <section>
+      <h3 id="gallery">Gallery</h3>
+      <div class="overlay">
+        <div class="popup popup-large-screen"></div>
+        <button class="previous" aria-label="Previous">&lt;</button>
+        <button class="next" aria-label="Next">&gt;</button>
+        <button class="close" aria-label="Close">&times;</button>
+      </div>
+      <div class="gallery-grid">
+        <!-- must specify how many columns each image should span out of 4 -->
+        <!-- the span of all elements in one row must add up to 4 -->
+        <div class="img-container span-two">
+          <img class="thumbnail" src="images/gallery/art1.png" alt="Little mermaid reaching up to the surface" />
+        </div>
+        <div class="img-container span-two">
+          <img class="thumbnail" src="images/gallery/art2.png" alt="Alice and Amanda from Riot Child" />
+        </div>
+
+        <div class="img-container span-one">
+          <img class="thumbnail" src="images/gallery/art3.png" alt="Side view of Hayley Williams with closed eyes and parted lips" />
+        </div>
+        <div class="img-container span-two">
+          <img class="thumbnail" src="images/gallery/art4.png" alt="Vargskelethor wearing viking helmet" />
+        </div>
+        <div class="img-container span-one">
+          <img class="thumbnail" src="images/gallery/art5.png" alt="Close up of enraged woman" />
+        </div>
+
+        <div class="img-container span-one">
+          <img class="thumbnail" src="images/gallery/art6.png" alt="Black and white sketch of man with glasses" />
+        </div>
+        <div class="img-container span-three">
+          <img class="thumbnail" src="images/gallery/art7.png" alt="Vargskelethor pulling skin under eye" />
+        </div>
+
+        <div class="img-container span-two">
+          <img class="thumbnail" src="images/gallery/art8.png" alt="Self-portrait in red" />
+        </div>
+        <div class="img-container span-two">
+          <img class="thumbnail" src="images/gallery/art9.png" alt="Will Vandom with Heart of Kandrakar floating between her hands" />
+        </div>
+
+        <div class="img-container span-one">
+          <img class="thumbnail" src="images/gallery/art10.png" alt="Ryan Seaman and Dallon Weekes holding flower bouquets up to their lips" />
+        </div>
+        <div class="img-container span-three">
+          <img class="thumbnail" src="images/gallery/art11.png" alt="Vargskelethor touching forehead dumbfounded" />
+        </div>
+      </div>
+    </section>
+
+    <!-- *************** FOOTER *************** -->
+    <footer>
+      <p>© 2021 by Erika&nbsp;Estrada. :-)</p>
+    </footer>
+  </body>
+  <script src="scripts/overlay.js"></script>
+  <script src="scripts/menu.js"></script>
+</html>

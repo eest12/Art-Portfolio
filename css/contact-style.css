@@ -1,0 +1,33 @@
+body {
+  background: url("../images/mel-poole-8tw1fzuLvIk-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+header {
+  height: 100%;
+  background: rgba(255,255,255,0.3);
+}
+main {
+  /* margin: 150px 0 0 50%; */
+  margin: 150px 17% 0 auto;
+  width: 600px;
+  max-width: 90%;
+}
+h1 {
+  margin: 0;
+  /* margin: 50px 150px 60px 150px; */
+  text-align: right;
+}
+section {
+  color: #46494c;
+  font-size: 24px;
+  text-align: right;
+  /* margin: 150px; */
+  /* width: 500px; */
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}

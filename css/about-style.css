@@ -1,0 +1,61 @@
+body {
+  /* background: url("../images/noah-huskey-nQlS-WDll3g-unsplash.jpg");
+  background-size: cover;
+  background-position: center right; */
+
+  background: #e3c397 url("../images/IMG_2110(2).jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+header {
+  height: 100%;
+  background: rgba(255,255,255,0.3);
+}
+h1 {
+  margin: 50px 150px 60px 150px;
+  text-align: left;
+}
+section {
+  background: rgba(0,0,0,0.8);
+  margin-left: 150px;
+  margin-bottom: 200px;
+  padding: 50px 75px;
+  max-width: 850px;
+  border-radius: 25px;
+  font-size: 22px;
+  line-height: 30px;
+}
+p {
+  margin: 25px 0;
+}
+section a {
+  color: #a5d8ff;
+}
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/* ---------- Responsive ---------- */
+@media screen and (max-width:1200px) {
+  h1 {
+    margin: 40px 0 20px 0;
+    text-align: center;
+  }
+  section {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media screen and (max-width:860px) {
+  section {
+    border-radius: 0;
+    padding: 30px 40px;
+    text-align: center;
+    margin: 0;
+  }
+}
