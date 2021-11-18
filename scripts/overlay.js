@@ -52,7 +52,8 @@ function hideOverlay() {
 // }
 
 function activatePopup(thumb) {
-  let src = thumb.getAttribute("src");
+  let thumb_src = thumb.getAttribute("src");
+  let src = thumb_src.substring(0, thumb_src.length - 10) + ".png"; // replaces x_thumb.jpg with x.png
   let alt = thumb.getAttribute("alt");
   popup.style.backgroundImage = "url(\"" + src + "\")";
   popup.setAttribute("alt", alt);
