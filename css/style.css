@@ -42,7 +42,7 @@ h1, h3 {
 
 /* ---------- Header ---------- */
 .parallax {
-  height: 1000px;
+  height: 100%;
   width: 100%;
   background: url("../images/jess-bailey-l3N9Q27zULw-unsplash(2).jpg");
   background-size: cover;
@@ -51,10 +51,10 @@ h1, h3 {
   z-index: -1;
 }
 header {
-  height: 1000px;
+  height: 100vh;
 }
 .horiz-menu {
-  font-size: 22px;
+  font-size: 3vh;
   text-align: center;
   padding: 25px 0;
   /* background: rgba(0,0,0,0.05); */
@@ -131,13 +131,13 @@ header {
   color: #ef806c;
 }
 h1 {
-  margin-top: 200px;
+  margin-top: 20vh;
   margin-bottom: 0;
   color: #ef806c;
-  font-size: 100px;
+  font-size: 10vh;
 }
 h2 {
-  font-size: 30px;
+  font-size: 3vh;
   color: #46494c;
   margin-top: 0;
 }
@@ -331,8 +331,8 @@ footer a:hover {
     margin: 0;
   } */
   h1 {
-    margin-top: 120px;
-    margin-bottom: 40px;
-    line-height: 100px;
+    margin-top: 12vh;
+    margin-bottom: 4vh;
+    line-height: 10vh;
   }
 }
