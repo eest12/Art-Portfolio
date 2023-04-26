@@ -1,0 +1,32 @@
+body {
+    background: #ede8e2;
+    color: #46494c;
+}
+
+header {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    margin: 50px 150px 60px 150px;
+    text-align: left;
+}
+
+.video-container {
+    margin: auto;
+    margin-bottom: 100px;
+    width: 50%;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}
